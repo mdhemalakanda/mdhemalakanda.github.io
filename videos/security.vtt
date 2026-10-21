@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.736
+In this video: how the plugin handles your secrets, and the choices worth reviewing on your store.
+
+00:00:06.186 --> 00:00:13.506
+The plugin stores four secrets: your FedEx Client Secret, the two Tracking credentials, and the Webhook Shared Secret.
+
+00:00:13.956 --> 00:00:21.468
+They're saved with your WordPress settings and aren't encrypted at rest — standard for WordPress, not a special weakness of this plugin.
+
+00:00:21.918 --> 00:00:28.662
+On screen, secret fields show dots, with a Show or Hide button next to each when you need to check what you pasted.
+
+00:00:29.112 --> 00:00:35.616
+Because saved values load with the Settings form, keep wp-admin logins limited to people you trust.
+
+00:00:36.066 --> 00:00:43.482
+The tracking webhook is the one place FedEx sends messages to your store — and every message must carry a valid signature.
+
+00:00:43.932 --> 00:00:52.188
+While the shared secret is empty, every delivery is refused with a 401. Setting it is the first thing to do after install.
+
+00:00:52.638 --> 00:01:01.206
+Tracking shortcodes are public by design and read-only. Shipment records are non-public, hidden from WordPress's programming interfaces.
+
+00:01:01.656 --> 00:01:07.944
+And one destructive operation: permanently deleting a canceled shipment deletes its linked order too.
+
+00:01:08.394 --> 00:01:15.018
+Rotate secrets periodically, and never share them with anyone. Next: compatibility requirements.
+

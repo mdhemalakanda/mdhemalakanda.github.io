@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.416
+In this video: what your store needs to run the TeamzLab FedEx Shipping plugin — current for version 1.2.3.
+
+00:00:07.866 --> 00:00:17.418
+You need WordPress 6.2 or newer, WooCommerce 7.0 or newer, and PHP 7.4 or newer. That's the whole core checklist.
+
+00:00:17.868 --> 00:00:23.676
+Both checkout types are covered — classic and block — and the label pipeline runs on either one.
+
+00:00:24.126 --> 00:00:31.518
+HPOS, WooCommerce's high-performance order storage, is fully supported, and shipment records sit outside that choice.
+
+00:00:31.968 --> 00:00:41.664
+The honest caveats: multisite isn't advertised, headless checkouts aren't guaranteed, and no translations ship yet — the admin is English only.
+
+00:00:42.114 --> 00:00:50.538
+Beyond that, your host needs outbound HTTPS to FedEx's API domains, and scheduled tasks running. Both are standard.
+
+00:00:50.988 --> 00:00:57.852
+There's nothing else: no extra PHP extensions, no command-line tools, no separate background workers.
+
+00:00:58.302 --> 00:01:07.470
+FedEx retired its older SOAP interface in 2026. This plugin runs on FedEx's current REST APIs — so keep the plugin updated.
+
+00:01:07.920 --> 00:01:15.168
+Plans change one thing, the daily shipment limit: ten on Free, a hundred on Premium, unlimited on Golden.
+
+00:01:15.618 --> 00:01:19.506
+That's compatibility. Next: frequently asked questions.
+

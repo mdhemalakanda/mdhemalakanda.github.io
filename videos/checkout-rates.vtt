@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.696
+In this video, you'll see how FedEx rates reach your customers, from the shop page to the shipping options at checkout.
+
+00:00:07.146 --> 00:00:14.370
+When a customer reaches the cart or checkout, the plugin asks FedEx for live prices for that exact destination and cart.
+
+00:00:14.820 --> 00:00:20.868
+On this demo store we'll shop as a customer: open the shop, pick a product, and add it to the cart.
+
+00:00:21.318 --> 00:00:29.070
+At the cart or checkout, once an address is known, the shipping options appear. This demo uses a generic test address.
+
+00:00:29.520 --> 00:00:36.456
+The address just has to sit inside your shipping zones — any address inside your shipping zones gets FedEx options.
+
+00:00:36.906 --> 00:00:45.618
+Each available FedEx service appears as its own shipping option, named by FedEx, at the price FedEx returned — no fee, no markup.
+
+00:00:46.068 --> 00:00:53.844
+Checkout shows prices only — no delivery-date estimates in this version. Classic and block-based checkouts are both supported.
+
+00:00:54.294 --> 00:01:02.238
+Every successful quote is remembered for ten minutes per destination and cart, so prices stay identical inside one checkout.
+
+00:01:02.688 --> 00:01:09.648
+Once your plan's daily limit is reached, FedEx rates pause until the next day — your other shipping methods still appear.
+
+00:01:10.098 --> 00:01:14.730
+Nothing is ordered in this demo. Next: create your first label from an order.
+

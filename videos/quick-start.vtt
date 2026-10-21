@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.280
+In this video, you'll go from zero to your first FedEx test label in about fifteen minutes — and everything stays in FedEx's sandbox.
+
+00:00:08.730 --> 00:00:18.042
+First, install and activate the plugin — the full walkthrough is in the Installation tutorial. After activation, a FedEx Shipping menu appears.
+
+00:00:18.492 --> 00:00:26.460
+Along the way, you'll need sandbox API keys from your FedEx developer project, and a shipping zone that covers the address you'll test with.
+
+00:00:26.910 --> 00:00:37.638
+In FedEx Shipping, open Settings, enter your Client ID and Client Secret on the Authorization tab, set the Account tab's Environment to Sandbox, and click Save Changes.
+
+00:00:38.088 --> 00:00:47.400
+Next, open WooCommerce, then Settings, then Shipping, and add the Fedex Shipping method to your zone. Its settings box is empty — that's normal.
+
+00:00:47.850 --> 00:00:59.370
+Next, open WooCommerce, then Settings, then Shipping, and add the Fedex Shipping method to your zone. Its window has just an on/off switch and a title — nothing FedEx-specific.
+
+00:00:59.820 --> 00:01:06.444
+The plugin is in instant mode by default, so the label is created automatically the moment the order is placed.
+
+00:01:06.894 --> 00:01:14.166
+Your test shipment then appears in Shipments and Printings with its tracking number — open or print the label with View Label.
+
+00:01:14.616 --> 00:01:23.232
+The Track view shows the shipment's status timeline — and about five minutes later, the customer email follows with the tracking number and a label link.
+
+00:01:23.682 --> 00:01:31.602
+If a rate or a label doesn't appear, start with Troubleshooting. And when you're ready for real shipping, the Going live tutorial takes you there.
+

@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.136
+In this video: quick answers to the questions store owners ask most about the plugin.
+
+00:00:05.586 --> 00:00:12.210
+Do you need a paid FedEx account to test? You need an account to create API projects, but the sandbox is free.
+
+00:00:12.660 --> 00:00:19.068
+Test labels are real files, but they never move a package. Wire up the whole store on sandbox first.
+
+00:00:19.518 --> 00:00:26.646
+Are labels bought for every order automatically? Only in Instant mode, and only when the customer picks a FedEx rate.
+
+00:00:27.096 --> 00:00:33.240
+Orders with another shipping method are untouched. In Advanced mode, nothing is paid until you confirm.
+
+00:00:33.690 --> 00:00:42.306
+Why the ten-per-day limit? That's the Free plan. Premium allows a hundred, Golden is unlimited, and it resets itself at midnight.
+
+00:00:42.756 --> 00:00:49.284
+Do quotes count against your quota? No — only placed orders do, and prices are cached for ten minutes.
+
+00:00:49.734 --> 00:00:57.102
+Does deleting a shipment delete the order? Deleting a canceled one does — by design. Active shipments refuse deletion.
+
+00:00:57.552 --> 00:01:03.480
+And if you delete the plugin: its settings and shipment records go, but your WooCommerce orders are kept.
+
+00:01:03.930 --> 00:01:07.722
+The FAQ page has the rest. Next: the glossary.
+

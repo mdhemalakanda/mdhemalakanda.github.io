@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.728
+In this video, you'll follow one customer order all the way to a printed FedEx label, and see exactly what happens at each step.
+
+00:00:08.178 --> 00:00:16.914
+Instant Shipping is the default mode: the plugin creates the FedEx label automatically the moment a customer pays. You never build a label by hand.
+
+00:00:17.364 --> 00:00:26.292
+At checkout, your customer sees live FedEx services and prices, picks one, and pays. The confirmation page tells them the shipment was created.
+
+00:00:26.742 --> 00:00:35.454
+Before buying, the plugin checks your daily shipment limit, runs customs checks on international orders, and blocks accidental duplicate labels.
+
+00:00:35.904 --> 00:00:44.280
+Open the order in WooCommerce, Orders. Everything about the label is automatic — there is nothing to build and nothing to pay by hand.
+
+00:00:44.730 --> 00:00:54.546
+If FedEx ever refuses, the reason becomes a note on the order. This sandbox store's labels are test labels — no real packages, no real charges.
+
+00:00:54.996 --> 00:01:04.260
+To print, go to FedEx Shipping, Shipments and Printings. Every shipment is one row — click View Label in the Label column to open the PDF.
+
+00:01:04.710 --> 00:01:13.062
+Use the Label Printed switch to track what's printed. Multi-box orders show one label button per box, next to the merged PDF.
+
+00:01:13.512 --> 00:01:20.952
+About five minutes later, the customer gets an email with the tracking number and a Download Label link, so they can print it themselves.
+
+00:01:21.402 --> 00:01:30.018
+Set up the tracking webhook, and the Status badge follows the package — right up to delivery, when the order completes. Next: Open Ship.
+

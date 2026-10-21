@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.376
+In this video, you'll meet Product Box — where you describe your real cartons, so a multi-item order labels as several real packages.
+
+00:00:08.826 --> 00:00:15.930
+By default, the plugin sends the whole order as one combined package. Box profiles fix that at label time.
+
+00:00:16.380 --> 00:00:21.972
+From your WordPress dashboard, open FedEx Shipping in the sidebar, then click Product Box.
+
+00:00:22.422 --> 00:00:29.454
+At the top, choose your units — kilograms or pounds for weight, centimeters or inches for dimensions.
+
+00:00:29.904 --> 00:00:36.816
+Click Add box, and a new card appears under Boxes, with a toggle to collapse it and a Remove box button.
+
+00:00:37.266 --> 00:00:44.658
+Give it a Name — a box without one is ignored — then its Length, Width, and Height, each greater than zero.
+
+00:00:45.108 --> 00:00:51.828
+Empty box weight is how much the carton itself weighs, with its own unit selector — zero is allowed.
+
+00:00:52.278 --> 00:00:59.766
+In Products and capacity, search for a product and enter how many units fit this box. Add a row for each product.
+
+00:01:00.216 --> 00:01:06.672
+We're not saving here — that's the Save Product Box button, which makes your profiles active for every new shipment.
+
+00:01:07.122 --> 00:01:15.066
+Checkout still quotes one combined package; boxes come in at label time. Next: Shipments and Printings, your label home.
+

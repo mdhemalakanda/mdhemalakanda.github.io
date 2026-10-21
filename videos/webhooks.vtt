@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.536
+In this video, you'll connect FedEx to your store, so tracking updates arrive by themselves — no one has to press refresh.
+
+00:00:07.986 --> 00:00:14.778
+A webhook is FedEx calling your store's special address whenever a package scan happens. You set it up once per store.
+
+00:00:15.228 --> 00:00:23.676
+Open FedEx Shipping, then Settings, and click the Tracking tab. Find the Tracking Webhooks section — AIV is the plugin's shorthand for it.
+
+00:00:24.126 --> 00:00:31.542
+Click Copy next to the webhook URL, and it's on your clipboard, ready to paste into the FedEx project that holds your keys.
+
+00:00:31.992 --> 00:00:40.488
+In that project's webhook settings, paste the URL as the address FedEx should call. The portal changes often — search its help for webhook.
+
+00:00:40.938 --> 00:00:47.634
+Then set one shared secret on both sides. It must match character for character, so treat it like a password.
+
+00:00:48.084 --> 00:00:54.444
+Enter it in FedEx, and again in the Webhook Shared Secret field you see here. Then click Save Changes.
+
+00:00:54.894 --> 00:01:02.550
+While the secret is empty, the plugin refuses every delivery. That's deliberate — nobody can feed your store fake updates.
+
+00:01:03.000 --> 00:01:12.672
+From the next scan onward, statuses refresh on their own, delivery moves orders to Completed, and exceptions point customers to nearby FedEx Offices.
+
+00:01:13.122 --> 00:01:22.554
+Sandbox shipments may never trigger a scan — FedEx's sandbox doesn't move real packages. You're connected. Next: the customer return portal.
+

@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.976
+In this video, you'll tour the Authorization tab — under FedEx Shipping, then Settings — the two credentials behind every feature except tracking.
+
+00:00:09.426 --> 00:00:18.378
+Client ID is the public key of your FedEx developer project. Without it, nothing works — no rates, no labels, no pickups.
+
+00:00:18.828 --> 00:00:26.532
+Client Secret is the private half from the same project. It's saved as dots — only people who can open this page see it.
+
+00:00:26.982 --> 00:00:33.846
+The Environment dropdown lives on the Account tab — it decides which FedEx server these two keys are used against.
+
+00:00:34.296 --> 00:00:41.376
+A fresh install behaves as sandbox until you deliberately switch to Production and save. That's the safe direction.
+
+00:00:41.826 --> 00:00:50.322
+Signing in is automatic — the plugin signs in with these two fields by itself. There's no token to paste, refresh, or delete.
+
+00:00:50.772 --> 00:00:58.740
+Saving doesn't test the credentials. A wrong value shows up later, usually as missing rates at checkout or a label that fails.
+
+00:00:59.190 --> 00:01:06.846
+One Save Changes button saves all five tabs together — and clears stored prices, so the next customer gets a fresh quote.
+
+00:01:07.296 --> 00:01:15.528
+Below it, the Daily Quota Controls panel shows your plan and today's usage. It's read-only — the counter resets itself each day.
+
+00:01:15.978 --> 00:01:22.170
+That's the Authorization tab. Tracking has its own key pair — continue to the Tracking tab next.
+

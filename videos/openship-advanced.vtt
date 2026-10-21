@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.992
+In this video, you'll create FedEx labels in Advanced mode — where you review every package yourself before anything is paid for.
+
+00:00:08.442 --> 00:00:16.242
+Advanced mode changes when the label is bought. Your customer checks out exactly as before, but no label is created at checkout.
+
+00:00:16.692 --> 00:00:24.444
+Instead, the order gets a draft session: a working shipment FedEx keeps open for you, with nothing paid and no label yet.
+
+00:00:24.894 --> 00:00:33.270
+In WooCommerce, Orders, the new order shows the FedEx draft status. Open it — the FedEx Open Ship box is your control panel.
+
+00:00:33.720 --> 00:00:43.920
+Each package has its own card — name, weight, dimensions, declared value, and which products go inside. Add box and Remove box shape the shipment.
+
+00:00:44.370 --> 00:00:52.386
+Higher up, Shipment settings holds the service, pickup, and packaging type. Change the service, and you'll restart the FedEx session.
+
+00:00:52.836 --> 00:00:59.940
+When the packages look right, click Save and push to FedEx. Each package row comes back with its own tracking number.
+
+00:01:00.390 --> 00:01:07.350
+Then click Confirm shipment — this is the moment the labels are bought. The box locks, and the order moves to Processing.
+
+00:01:07.800 --> 00:01:16.632
+One warning: confirming cannot be undone. There is no cancel or void for a confirmed shipment in this version — finish your review first.
+
+00:01:17.082 --> 00:01:27.858
+After confirming, download the merged labels — one PDF with every package. Sandbox confirmations create test labels only. Next: multi-piece shipments.
+

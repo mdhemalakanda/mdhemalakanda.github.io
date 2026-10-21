@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.584
+In this video, you'll meet Open Shipments, the workbench for Advanced shipping mode, and see what every part of the page is for.
+
+00:00:08.034 --> 00:00:17.298
+Open Shipments appears only when Shipping mode is set to Advanced, under FedEx Shipping, then Settings. You also need permission to edit WooCommerce orders.
+
+00:00:17.748 --> 00:00:26.844
+This demo store has test orders with FedEx sessions, so the list is populated. In Instant mode, this menu is replaced by Shipments and Printings.
+
+00:00:27.294 --> 00:00:35.574
+Every order holding a FedEx Open Ship session appears here, whether it still awaits your confirmation or is already confirmed and labeled.
+
+00:00:36.024 --> 00:00:45.312
+Two tabs sit above the table, All and Trash, each with its count — plus a Search orders box and two filters, for stage and lifecycle.
+
+00:00:45.762 --> 00:00:54.354
+The table lists order, customer, date, and status, plus a lifecycle and a stage badge — Open, Shipped, or Delivered.
+
+00:00:54.804 --> 00:01:04.308
+Hover a row and its actions appear: Edit order, View FedEx details, Cancel on FedEx, Move to trash, or Trash after FedEx cancel.
+
+00:01:04.758 --> 00:01:12.606
+Edit order opens the order screen, where the FedEx Open Ship box waits — that's where you adjust packages and confirm the shipment.
+
+00:01:13.056 --> 00:01:17.568
+Nothing was saved on this demo store. Next in the docs: Pickup History.
+

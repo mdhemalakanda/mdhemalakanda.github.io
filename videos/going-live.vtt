@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.128
+In this video, you'll switch the plugin from FedEx's practice mode to your real FedEx account, once your testing is finished.
+
+00:00:07.578 --> 00:00:15.138
+Sandbox prices and labels are test only — nothing moves a real package and nothing is billed. Production is the real thing.
+
+00:00:15.588 --> 00:00:24.276
+Before switching: one full test order, tracking set up, your negotiated rate type selected, and your address and label settings final.
+
+00:00:24.726 --> 00:00:32.742
+Then request production access in your developer project. FedEx reviews it — approval typically takes three to five business days.
+
+00:00:33.192 --> 00:00:40.992
+Once approved, copy the production API key and secret key. As before, FedEx shows the secret only once.
+
+00:00:41.442 --> 00:00:48.930
+Those production keys are different keys — replace the Client ID and Client Secret on the Authorization tab with the new pair.
+
+00:00:49.380 --> 00:00:56.364
+In your store's admin, open FedEx Shipping, Settings, then the Account tab, and scroll to the Environment dropdown.
+
+00:00:56.814 --> 00:01:04.254
+It has exactly two choices. We're staying on Sandbox on this demo store — on a live store, you'd select Production.
+
+00:01:04.704 --> 00:01:11.184
+Check that Account Number holds your real account number, then save — the badge at the top flips to orange Production.
+
+00:01:11.634 --> 00:01:17.946
+Run one small real order and check the prices, the label, and the tracking updates. That's you live.
+

@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.728
+In this video, you'll see how international orders handle customs paperwork — and how to go paperless with electronic trade documents.
+
+00:00:08.178 --> 00:00:16.002
+There's no customs form to fill in. When the delivery country differs from yours, the plugin builds the commercial invoice from the order.
+
+00:00:16.452 --> 00:00:24.084
+Descriptions, quantities, prices, and weights all come from the order and your products — so give every product a weight.
+
+00:00:24.534 --> 00:00:32.670
+Before any international label, FedEx runs a customs check. A prohibited item stops everything — no label, no charge.
+
+00:00:33.120 --> 00:00:40.104
+If customs will want extra documents, the label is still created, and an order note lists exactly what to upload.
+
+00:00:40.554 --> 00:00:47.082
+To send them, open FedEx Shipping, Shipments and Printings, and click Upload docs in the Trade docs column.
+
+00:00:47.532 --> 00:00:57.732
+The Trade Documents Upload window opens. Check the tracking number, then Add document and pick a type — commercial invoice, certificate of origin, and more.
+
+00:00:58.182 --> 00:01:05.814
+Up to five documents per request. Click Upload to FedEx, and the Trade docs column flips to Uploaded, with the count.
+
+00:01:06.264 --> 00:01:13.200
+Once documents are linked to a shipment, the label request goes paperless by itself — there's no switch to turn on.
+
+00:01:13.650 --> 00:01:23.202
+Sandbox tests never clear real customs, and customs holds email your store admin automatically. Next: tracking, from label to doorstep.
+

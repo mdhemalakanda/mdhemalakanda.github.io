@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.936
+In this video, you'll tour the Shipping tab — where you choose which FedEx prices and services your customers see at checkout.
+
+00:00:07.386 --> 00:00:14.826
+Everything here shapes checkout: how labels get created, which services are offered, and whether delivery addresses are checked.
+
+00:00:15.276 --> 00:00:21.108
+From your WordPress dashboard, go to FedEx Shipping, then Settings, and click the Shipping tab.
+
+00:00:21.558 --> 00:00:29.718
+Shipping mode decides how labels are created. Instant buys a label the moment a customer checks out; Advanced creates a draft you confirm.
+
+00:00:30.168 --> 00:00:36.408
+Pickup Type tells FedEx how you'll hand over packages when it quotes prices — it never books a real pickup.
+
+00:00:36.858 --> 00:00:46.098
+Rate Request Type chooses which FedEx prices are requested. Leave it empty, and checkout shows retail prices — even if your contract has discounts.
+
+00:00:46.548 --> 00:00:54.924
+Shipping Methods limits the services customers can choose. Most stores keep a short list — and checkout never breaks if a cart matches none of them.
+
+00:00:55.374 --> 00:01:04.518
+One surprise: address validation is actually running on a brand-new store, until your first save stores the empty checkbox and switches it off.
+
+00:01:04.968 --> 00:01:13.512
+At the bottom, Daily Quota Controls shows your plan and today's usage. It's read-only — usage resets itself at the start of each day.
+
+00:01:13.962 --> 00:01:20.682
+Nothing was changed in this tour. Next: the Labeling tab, for your label's address, packaging, and format.
+

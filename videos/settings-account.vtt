@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.984
+In this video, you'll tour the Account tab of the FedEx Shipping settings, and see exactly what each field does on your store.
+
+00:00:07.434 --> 00:00:15.090
+This tab identifies who ships: the FedEx account that gets billed, the contact printed on your labels, and where parcels start.
+
+00:00:15.540 --> 00:00:21.300
+From your WordPress dashboard, go to FedEx Shipping, then Settings, and click the Account tab.
+
+00:00:21.750 --> 00:00:29.550
+Account Number holds your nine-digit FedEx shipping account — it's billed for checkout prices, labels, pickups, and returns.
+
+00:00:30.000 --> 00:00:36.552
+Person Name and Phone Number print on your labels as the sender, and appear as the recipient on return labels.
+
+00:00:37.002 --> 00:00:43.722
+Postal Code and Country together start every price quote — a wrong postcode here means wrong prices at checkout.
+
+00:00:44.172 --> 00:00:50.916
+City and State Or Province Code appear on labels and pickups. The state list follows the country you chose.
+
+00:00:51.366 --> 00:01:00.054
+The Environment switch points the plugin at FedEx's test servers or the real ones. Sandbox issues test labels only — nothing is charged.
+
+00:01:00.504 --> 00:01:08.904
+A badge at the top of the page shows the current mode: purple for sandbox, orange for production. This demo store runs in sandbox.
+
+00:01:09.354 --> 00:01:16.170
+One Save Changes button saves all five tabs at once — we're not saving here. Next, the Shipping tab.
+

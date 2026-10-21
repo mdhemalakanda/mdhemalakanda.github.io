@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.664
+In this video, you'll tour the Labeling tab — the address on your labels, the packaging, who pays FedEx, and the label's size and format.
+
+00:00:09.114 --> 00:00:16.650
+Three things live here: the street lines of your store address, the packaging FedEx should assume, and the printed label's format.
+
+00:00:17.100 --> 00:00:22.908
+From your WordPress dashboard, go to FedEx Shipping, then Settings, and click the Labeling tab.
+
+00:00:23.358 --> 00:00:30.414
+Street Lines completes the shipper address — city, state, postal code, and country come from the Account tab.
+
+00:00:30.864 --> 00:00:38.712
+Packaging Type is the packaging FedEx assumes, on labels and on every price quote — so pick the one you actually ship with.
+
+00:00:39.162 --> 00:00:46.770
+Careful: there are two Pickup Type settings. This one is written onto your labels; the one on Shipping affects price quotes.
+
+00:00:47.220 --> 00:00:56.196
+Payment Type sets who pays FedEx: the sender, the recipient, a third party, or collect. Return labels always bill your own account.
+
+00:00:56.646 --> 00:01:04.086
+In Label Specification, Paper 4 by 6 fits most thermal printers, and Paper Letter prints on standard office paper.
+
+00:01:04.536 --> 00:01:14.424
+Z P L 2 or E P L 2 suits thermal printers, P D F suits office printers. Keep Common 2D unless another system renders labels.
+
+00:01:14.874 --> 00:01:23.370
+Nothing was saved in this tour. In Instant mode, your labels appear under Shipments and Printings — next, match products to boxes.
+

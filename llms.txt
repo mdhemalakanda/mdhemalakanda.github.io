@@ -1,0 +1,40 @@
+# TeamzLab FedEx Shipping
+
+> Documentation for TeamzLab FedEx Shipping for WooCommerce — live FedEx rates, automatic labels, tracking, freight, and self-serve returns for your store.
+
+## Docs
+
+- [Quick start: your first test label](/getting-started/quick-start): Install the plugin, connect sandbox keys, add the FedEx shipping method to a zone, and create your first test label.
+- [Installation](/getting-started/installation): Install TeamzLab FedEx Shipping on your WooCommerce store and confirm it is active.
+- [Connecting FedEx credentials](/getting-started/credentials): Create free test keys on the FedEx developer portal and enter them in the plugin's Authorization, Tracking, and Account tabs.
+- [Going live: from sandbox to production](/getting-started/going-live): Switch the plugin from FedEx test mode to your real FedEx account once your testing is finished.
+- [Uninstalling and removing your data](/getting-started/uninstall): What deactivating the plugin does, what deleting it removes, and what stays with your store.
+- [Authorization tab](/settings/authorization): Enter the two FedEx credentials the plugin uses for checkout rates, labels, pickups, and everything except tracking.
+- [Tracking tab](/settings/tracking): Enter the tracking-only FedEx credentials and connect FedEx tracking updates to your store.
+- [Account tab](/settings/account): Your FedEx account number, the address your parcels ship from, and the sandbox/production switch.
+- [Shipping tab](/settings/shipping): Choose how labels are created, which FedEx prices and services your customers see at checkout, and whether delivery addresses are checked.
+- [Labeling tab](/settings/labeling): Set the store address printed on labels, the packaging, who pays FedEx, and how printed labels look.
+- [Product Box: pack orders into your own boxes](/settings/product-box): Tell the plugin how your real cartons are filled, so a multi-item order prints as the packages you actually ship.
+- [Shipments & Printings (label manager)](/admin/shipments-printings): Every Instant-mode shipment in one list — view and print labels, track parcels, cancel shipments, and send customs documents to FedEx.
+- [Open Shipments (draft manager)](/admin/open-shipments): The FedEx Shipping → Open Shipments screen lists every Advanced-mode order with a FedEx session, so you can review, confirm, cancel, or inspect shipments from one place.
+- [Pickup History](/settings/pickup-history): See every FedEx pickup request for your store and schedule one consolidated pickup for all ready shipments.
+- [Adding FedEx rates to your store](/workflows/shipping-method): Add the Fedex Shipping method to a WooCommerce shipping zone so your customers see live FedEx prices at checkout.
+- [How checkout rates work](/workflows/checkout-rates): What your customers see, what the plugin sends to FedEx, why prices are remembered for 10 minutes, and how your plan's daily limit affects rates.
+- [Instant labels: from order to printed label](/workflows/instant-labels): How a customer order becomes a printed FedEx label in Instant mode — checkout, the automatic label, printing, the customer email, and tracking updates.
+- [Advanced mode (Open Ship): confirm shipments yourself](/workflows/openship-advanced): In Advanced shipping mode, checkout creates a FedEx draft session and you review the packages and create the labels yourself from the order screen.
+- [Shipping one order in several packages](/workflows/multi-piece): How a multi-package order works in Instant and Advanced mode, and how FedEx organizes the tracking numbers when one order travels in several boxes.
+- [International shipping and paperless documents (ETD)](/workflows/international-etd): How the plugin builds customs paperwork for international orders, and how to send trade documents to FedEx without paper.
+- [Tracking shipments](/tracking/tracking): Where shipment tracking appears for you and your customers, and how to switch it on.
+- [Tracking updates: connecting FedEx to your store](/tracking/webhooks): Connect FedEx package scans to your store once, and tracking updates, delivery confirmations, and alerts arrive on their own.
+- [Self-serve returns portal](/tracking/returns): Let customers request a prepaid FedEx return label from a page on your store.
+- [Architecture](/developers/architecture): How the plugin is organized — autoloader, bootstrap, layers, and extension points.
+- [Logging](/developers/logs): Every WooCommerce log source the plugin writes, what is logged at each level, and what never lands in a log.
+- [Shortcodes](/developers/shortcodes): All six shortcodes with attributes and examples.
+- [REST API](/developers/rest-api): The plugin's own REST routes under /wp-json/fshipping/v1/.
+- [Hooks & filters](/developers/hooks): Every filter and action the plugin fires, grouped by purpose, with arguments and expected returns.
+- [Options, quota & data model](/developers/options): Stored options, transients, the daily shipment quota, the fedex_shipping post type, and what uninstall removes.
+- [Troubleshooting](/troubleshooting): Plain-English fixes for the most common TeamzLab FedEx Shipping problems, from missing rates to tracking that never updates.
+- [Security notes](/security): How the plugin handles secrets, authentication, and public endpoints — and the choices you should review.
+- [Compatibility](/compatibility): WordPress, WooCommerce, and PHP versions the plugin supports, plus HPOS, block checkout, multisite, and translations.
+- [FAQ](/faq): Quick answers to the questions store owners ask most about TeamzLab FedEx Shipping.
+- [Glossary](/glossary): Every FedEx and WooCommerce term used in these docs, explained in plain English.

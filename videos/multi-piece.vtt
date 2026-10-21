@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.800
+In this video, you'll ship one order in several boxes — one FedEx shipment, many packages, and one label per package.
+
+00:00:08.250 --> 00:00:15.666
+It happens when the items don't fit one carton, or a customer buys several bulky products. Both shipping modes support it.
+
+00:00:16.116 --> 00:00:24.420
+The difference is who packs. In Instant mode, the plugin packs for you, using your Product Box profiles — you never repack by hand.
+
+00:00:24.870 --> 00:00:32.142
+You keep one shipment record per order. On Shipments and Printings, the Box info column shows what went into each box.
+
+00:00:32.592 --> 00:00:40.080
+The Label column has the main View Label button plus one button per box — print the whole set, or print box by box.
+
+00:00:40.530 --> 00:00:47.370
+In Advanced mode, you decide. On the order, the FedEx Open Ship box lists one package card per box.
+
+00:00:47.820 --> 00:00:56.388
+Use Add box for each extra carton, fill in weight, dimensions, and the products inside, then click Save and push to FedEx.
+
+00:00:56.838 --> 00:01:03.582
+Confirm shipment buys the labels — one per package, plus a merged PDF if you print them all at once.
+
+00:01:04.032 --> 00:01:11.352
+Tracking has two layers: a master number for the whole shipment, and one number per package, printed on each label.
+
+00:01:11.802 --> 00:01:19.938
+Sandbox shipments make test labels only — nothing is charged. Next: international shipments and electronic trade documents.
+

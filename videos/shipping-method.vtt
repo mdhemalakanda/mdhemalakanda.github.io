@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.680
+In this video, you'll add the Fedex Shipping method to a WooCommerce shipping zone, so your customers see live FedEx prices at checkout.
+
+00:00:08.130 --> 00:00:15.114
+FedEx prices appear at checkout only when the plugin's method sits in a shipping zone that covers the customer's address.
+
+00:00:15.564 --> 00:00:22.092
+In your WordPress admin, go to WooCommerce, Settings, Shipping. This page lists your shipping zones.
+
+00:00:22.542 --> 00:00:30.558
+A new store has one built-in row — Locations not covered by your other zones — which matches any address no other zone covers.
+
+00:00:31.008 --> 00:00:38.304
+Open the zone — click Edit next to it. This demo uses a throwaway zone — you'll use the zone that covers your customers.
+
+00:00:38.754 --> 00:00:46.098
+Add the Fedex Shipping method to the zone that covers your customers: click Add shipping method, choose Fedex Shipping, and confirm.
+
+00:00:46.548 --> 00:00:54.660
+The spelling is exact — lowercase x. Confirm with Continue, then save the window — and the method joins the zone's list.
+
+00:00:55.110 --> 00:01:05.238
+Its Edit window has only two generic fields — on or off, and a title. There are no FedEx settings here; every option lives on the plugin's own Settings page.
+
+00:01:05.688 --> 00:01:13.224
+The toggle in the method list turns FedEx prices on or off for that zone. Add the method to every zone you deliver to.
+
+00:01:13.674 --> 00:01:17.946
+That's the whole setup. Next: see the rates customers get at checkout.
+

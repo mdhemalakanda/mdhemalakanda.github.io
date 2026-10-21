@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.944
+In this video, you'll meet Pickup History — where every FedEx pickup request for your store is listed, and where pickups get scheduled.
+
+00:00:08.394 --> 00:00:15.474
+The page has three parts: a count of pickups on record, the Schedule Global Pickup card, and the history table.
+
+00:00:15.924 --> 00:00:21.612
+From your WordPress dashboard, open FedEx Shipping in the sidebar, then click Pickup History.
+
+00:00:22.062 --> 00:00:30.294
+The card at the top books one consolidated pickup for every shipment that's ready — active, with a tracking number, and not picked up yet.
+
+00:00:30.744 --> 00:00:36.744
+Choose a pickup date — it starts on the next business day, and by default you can book up to two days ahead.
+
+00:00:37.194 --> 00:00:45.066
+Click Schedule pickup, and the page lists the ready shipments it found, then asks you to confirm. FedEx returns a confirmation number.
+
+00:00:45.516 --> 00:00:53.316
+If nothing is ready, nothing is booked — you'll see 'No ready shipments available for pickup.' We're not booking one on this sandbox demo.
+
+00:00:53.766 --> 00:01:02.454
+Below the card, the history table lists every request. Each scheduled pickup appears here with its confirmation number and a status badge.
+
+00:01:02.904 --> 00:01:10.680
+Search by confirmation or tracking number, filter by Scheduled or Canceled, and use Cancel pickup on a row to call it off.
+
+00:01:11.130 --> 00:01:16.746
+Real pickups are only ever scheduled on this page. Next: add FedEx to a shipping zone.
+

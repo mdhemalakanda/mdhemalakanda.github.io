@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.464
+In this video, you'll install the Teamzlab FedEx Shipping plugin on your WooCommerce store, and see exactly what happens at each step.
+
+00:00:07.914 --> 00:00:14.970
+Before you begin, you need a WordPress store running WooCommerce, an administrator login, and a FedEx shipping account.
+
+00:00:15.420 --> 00:00:19.572
+From your WordPress dashboard, go to Plugins, and click Add New.
+
+00:00:20.022 --> 00:00:25.662
+The plugin arrives as a zip file from TeamzLab. Click Upload Plugin at the top of the page.
+
+00:00:26.112 --> 00:00:32.328
+Choose the zip file — don't unzip it first — click Install Now, and wait for WordPress to finish.
+
+00:00:32.778 --> 00:00:39.858
+Then click Activate Plugin. On this demo store the plugin is already installed and active, so you'll see it in the list.
+
+00:00:40.308 --> 00:00:48.012
+You can also install straight from WordPress dot org: search Teamzlab Fedex on this screen, then click Install Now, and Activate.
+
+00:00:48.462 --> 00:00:57.342
+After activation, a new FedEx Shipping menu appears in the sidebar — shipments, pickups, boxes, and settings all live under it.
+
+00:00:57.792 --> 00:01:03.312
+You're installed. Next, connect your FedEx credentials so the plugin can talk to FedEx.
+

@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.264
+In this video: the words you'll meet in these docs and in your FedEx developer account, in plain English.
+
+00:00:06.714 --> 00:00:14.706
+The sandbox is FedEx's free practice environment. Test labels are real files, but they never move a package and cost nothing.
+
+00:00:15.156 --> 00:00:22.044
+Production is the opposite — the live environment, where labels cost real money and move real packages.
+
+00:00:22.494 --> 00:00:28.638
+Your credentials come as a pair. The Client ID is the public half that identifies your store to FedEx.
+
+00:00:29.088 --> 00:00:34.152
+The secret key is the private half. Treat it like a password, and never share it.
+
+00:00:34.602 --> 00:00:42.354
+A webhook is FedEx pushing news to your store — out for delivery, delivered — instead of your store asking over and over.
+
+00:00:42.804 --> 00:00:49.548
+The shared secret backs it up: FedEx signs each delivery with it, and your store checks the signature before acting.
+
+00:00:49.998 --> 00:00:57.126
+Instant mode buys a label automatically at checkout. Advanced mode creates a draft you review and confirm yourself.
+
+00:00:57.576 --> 00:01:05.664
+A shipping zone is a WooCommerce group of countries, states, or postcodes — methods added to it are offered to matching addresses.
+
+00:01:06.114 --> 00:01:14.610
+And the daily quota: ten checkouts a day on Free, a hundred on Premium, unlimited on Golden. You know the plugin — go ship something.
+

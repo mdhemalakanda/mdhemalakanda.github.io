@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.536
+In this video, you'll tour the Tracking tab — a second set of FedEx keys used only for tracking, plus its webhook setup.
+
+00:00:07.986 --> 00:00:12.138
+You'll find it under FedEx Shipping, then Settings, in your store's admin.
+
+00:00:12.588 --> 00:00:20.196
+FedEx projects are usually split by API family, so tracking gets its own key and secret — and its own tab here.
+
+00:00:20.646 --> 00:00:28.230
+There's no fallback to your main keys — leave this tab empty and rates and labels work, but tracking quietly dies.
+
+00:00:28.680 --> 00:00:37.872
+Below the credentials sits the Tracking Webhooks section — FedEx pushes updates there automatically as a parcel moves. AIV is FedEx's name for it.
+
+00:00:38.322 --> 00:00:44.538
+It has two parts: your store's webhook address with a Copy button, and a Webhook Shared Secret field.
+
+00:00:44.988 --> 00:00:50.484
+Copy the address and paste it into your FedEx project — the plugin can't do that step for you.
+
+00:00:50.934 --> 00:00:58.974
+Set the same shared secret in FedEx and here, then Save Changes. Until the two match exactly, updates are turned away.
+
+00:00:59.424 --> 00:01:06.264
+An empty secret blocks every update on purpose — it stops anyone sending your store fake tracking events.
+
+00:01:06.714 --> 00:01:13.386
+The tracking form works without the webhook — it asks FedEx directly. Next, continue to the Account tab.
+

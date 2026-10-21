@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.528
+In this video, you'll see where FedEx tracking appears — for you, for your staff, and for your customers.
+
+00:00:06.978 --> 00:00:14.298
+Every label comes with a FedEx tracking number. In the admin, they're listed in the Tracking ID column of Shipments and Printings.
+
+00:00:14.748 --> 00:00:22.380
+Click Track in the Track Parcel column, and a popup opens — status, delivery date, service type, and the parcel's route.
+
+00:00:22.830 --> 00:00:30.582
+Every click asks FedEx for live data, so you're seeing the parcel right now, not a stored snapshot. The button becomes Track Again.
+
+00:00:31.032 --> 00:00:38.280
+The number is saved on the WooCommerce order too. There's no tracking panel on the order screen in this version — track from the list.
+
+00:00:38.730 --> 00:00:46.122
+Customers meet tracking in two ways: the shipment email, and whatever you put on a tracking page with the plugin's shortcodes.
+
+00:00:46.572 --> 00:00:55.092
+One shortcode renders a form where anyone enters a number. Another shows the scan-by-scan timeline for one order — stored scans only.
+
+00:00:55.542 --> 00:01:04.734
+Live lookups need their own credentials. In Settings, Tracking tab, enter a Tracking Client ID and Secret — empty fields fail quietly.
+
+00:01:05.184 --> 00:01:12.072
+On a sandbox store, the timeline can look empty — that's normal. Test labels never move real packages.
+
+00:01:12.522 --> 00:01:18.474
+That's tracking, from label to doorstep. Next: automate tracking updates with webhooks.
+

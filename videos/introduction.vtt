@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.344
+In this video, you'll meet the Teamzlab FedEx Shipping plugin — what it does for your WooCommerce store, and where the docs take you.
+
+00:00:07.794 --> 00:00:16.890
+One plugin connects your store to FedEx: live prices at checkout, labels after purchase, tracking on your site, and a self-service return portal.
+
+00:00:17.340 --> 00:00:26.820
+After installation, everything lives under one FedEx Shipping menu — shipments and printings, pickups, product boxes, and five settings tabs.
+
+00:00:27.270 --> 00:00:34.326
+It runs on your own FedEx account. You enter your API credentials once, and after that the plugin talks to FedEx for you.
+
+00:00:34.776 --> 00:00:41.208
+At checkout, your customer sees live FedEx prices for the services you allow. No more flat rates you guessed.
+
+00:00:41.658 --> 00:00:50.202
+Once the order is placed, the plugin creates the shipment and files the label — automatically in instant mode, or after you confirm a draft.
+
+00:00:50.652 --> 00:00:56.988
+Tracking pages on your own site show customers where the parcel is — which means fewer where-is-my-order emails.
+
+00:00:57.438 --> 00:01:08.310
+These docs cover every step — quick start, credentials, shipping zones, labels, tracking, returns — plus troubleshooting, an FAQ, and a glossary.
+
+00:01:08.760 --> 00:01:14.544
+It's built for store owners who ship with FedEx on WordPress — and you don't need to write code to set it up.
+
+00:01:14.994 --> 00:01:20.922
+Start with Quick start: from zero to a working sandbox test label in about fifteen minutes.
+

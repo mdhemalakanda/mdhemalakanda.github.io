@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.792
+In this video, you'll learn where to look when the plugin misbehaves — the details are almost always in the logs.
+
+00:00:07.242 --> 00:00:16.602
+First, check the badge on the FedEx Shipping settings page: purple Sandbox or orange Production. Many problems are a sandbox-versus-production mixup.
+
+00:00:17.052 --> 00:00:25.044
+When anything misbehaves, open WooCommerce, then Status, then Logs. The plugin writes there under five source names.
+
+00:00:25.494 --> 00:00:33.414
+The rate log is called teamzlab fedex shippnig — yes, the misspelling is in the plugin itself, so search it exactly like that.
+
+00:00:33.864 --> 00:00:42.408
+Labels, checkout problems, tracking updates, and confirmation-email failures each get their own log source, named on this slide.
+
+00:00:42.858 --> 00:00:48.594
+Say no FedEx rates appear at checkout. Filter by the rate log and open the newest entries.
+
+00:00:49.044 --> 00:00:59.388
+Status codes 502, 503, or 504 mean FedEx's servers were unreachable. Wait a few minutes — the plugin already retried once.
+
+00:00:59.838 --> 00:01:05.694
+A 401 or invalid client points at your keys or environment — the next thing to check.
+
+00:01:06.144 --> 00:01:14.376
+Contacting support? Bring the order number, the exact time, and the log lines around it. Real support never asks for your secrets.
+
+00:01:14.826 --> 00:01:19.242
+That's where to look. Next: security, how your data is protected.
+

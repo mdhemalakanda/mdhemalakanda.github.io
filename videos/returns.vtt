@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.584
+In this video, you'll meet the self-serve return portal — where customers request a prepaid FedEx return label themselves.
+
+00:00:08.034 --> 00:00:14.418
+The portal is a shortcode you place on any page. Customers use it themselves — no admin involvement.
+
+00:00:14.868 --> 00:00:20.172
+They enter their order number and billing email, pick a reason, and can add an optional note.
+
+00:00:20.622 --> 00:00:26.430
+Then they click Request return label. On this demo store we stop right there — nothing gets submitted.
+
+00:00:26.880 --> 00:00:33.624
+The portal checks that the order is completed and inside the return window, and that the billing email matches the order.
+
+00:00:34.074 --> 00:00:40.674
+Then FedEx issues a prepaid return label, billed to your FedEx account — whatever the Payment Type setting says.
+
+00:00:41.124 --> 00:00:47.700
+Here's the honest part: no email is actually sent. The label is saved to the order, where you forward it.
+
+00:00:48.150 --> 00:00:55.398
+The label is addressed to your store, from your Labeling and Account settings. The customer's address prints as the sender.
+
+00:00:55.848 --> 00:01:02.976
+Two limits to know: every request buys a label, even a duplicate, and each one counts toward your daily quota.
+
+00:01:03.426 --> 00:01:11.874
+Since an order number and billing email are all it takes, consider a logged-in page. Next: troubleshooting, from logs to fixes.
+

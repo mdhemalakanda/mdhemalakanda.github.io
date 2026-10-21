@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.280
+In this video, you'll explore Shipments and Printings, the FedEx label manager, and see what every column and button on the list does.
+
+00:00:08.730 --> 00:00:17.778
+Open WordPress Admin, then FedEx Shipping, then Shipments and Printings. One list shows every shipment your store has created, newest first.
+
+00:00:18.228 --> 00:00:27.324
+This demo store already holds test shipments, so the list is populated. The page heading says Shipments and Labeling — same page as the menu.
+
+00:00:27.774 --> 00:00:35.190
+Each row shows the tracking ID, the FedEx service booked, the boxes and what's packed in them, and a colored status badge.
+
+00:00:35.640 --> 00:00:42.552
+The Label column holds the View Label buttons, and the Label Printed switch is your own bookkeeping — FedEx never sees it.
+
+00:00:43.002 --> 00:00:52.650
+Each row also carries its controls: cancel the shipment, request a pickup, create a return, upload customs documents, or download proof of delivery.
+
+00:00:53.100 --> 00:01:02.220
+Click Track in the Track Parcel column. A Shipment Details popup opens with the tracking number, current status, delivery date, service type, and route.
+
+00:01:02.670 --> 00:01:11.046
+That popup asks FedEx for live details on the spot. The status badge, by contrast, shows the last status your store received.
+
+00:01:11.496 --> 00:01:16.848
+That's the Instant-mode label manager. Next: Open Shipments for batch workflows.
+

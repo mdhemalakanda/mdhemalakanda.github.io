@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.368
+In this video, you'll see what deactivating the FedEx plugin does, what deleting it removes, and what stays with your store.
+
+00:00:07.818 --> 00:00:16.098
+Deactivate only switches the plugin off. Your checkout stops showing FedEx rates and stops creating labels, and nothing is deleted.
+
+00:00:16.548 --> 00:00:24.228
+Your settings, shipment records, and order history are kept exactly as they are. Turn it back on, and everything works again.
+
+00:00:24.678 --> 00:00:33.126
+One warning before you delete anything: permanently deleting a shipment record also permanently deletes the WooCommerce order it belongs to.
+
+00:00:33.576 --> 00:00:41.472
+Only canceled shipments can be trashed or deleted — active ones are protected. To remove a test order, delete the order first.
+
+00:00:41.922 --> 00:00:50.370
+Deleting the plugin itself is different. It removes your settings, your shipment records, the method in each shipping zone, and pickup history.
+
+00:00:50.820 --> 00:00:57.924
+It does not delete your orders. Order histories, order notes, and label PDF files all stay with your store.
+
+00:00:58.374 --> 00:01:04.086
+To remove the plugin, make a fresh backup first, then open the Plugins page in your store's admin.
+
+00:01:04.536 --> 00:01:11.784
+Under Teamzlab Fedex, Deactivate stops the plugin but keeps its data. Delete runs the cleanup once you confirm.
+
+00:01:12.234 --> 00:01:20.058
+A few items can remain — box templates and label files — and cached tokens expire within hours. Reinstall anytime.
+
