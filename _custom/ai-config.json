@@ -1,0 +1,4 @@
+{
+  "endpoint": null,
+  "_comment": "Set endpoint to a POST JSON {question} -> {answer} proxy (e.g. /_custom/ask.php with a server-side API key) to enable generative answers. null = retrieval-only mode."
+}

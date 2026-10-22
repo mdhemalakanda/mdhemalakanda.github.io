@@ -1,0 +1,24 @@
+# TeamzLab FedEx docs — deployment helpers (audit 2026-10-22)
+# Upload to the vhost root next to index.html. Requires AllowOverride FileInfo
+# (mod_alias + mod_headers). Every directive here is valid in .htaccess context;
+# nothing that can 500 if a module is missing is wrapped defensively.
+
+DirectoryIndex index.html
+
+# The Introduction is now the homepage; keep exactly one canonical URL.
+RedirectMatch 301 ^/introduction/?$ /
+
+# Branded 404 (real 404 status is preserved by ErrorDocument).
+ErrorDocument 404 /404.html
+
+# Static assets: 1-day cache (safe for unhashed paths like /images/).
+# Optional upgrade for /_next/static/* (content-hashed -> 1y immutable):
+#   <If "%{REQUEST_URI} =~ m#^/_next/static/#">
+#     Header set Cache-Control "public, max-age=31536000, immutable"
+#   </If>
+# (requires Apache 2.4.10+; verify in a staging vhost before enabling).
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|woff2?|png|jpe?g|webp|svg|mp4|vtt|ico)$">
+    Header set Cache-Control "public, max-age=86400"
+  </FilesMatch>
+</IfModule>
