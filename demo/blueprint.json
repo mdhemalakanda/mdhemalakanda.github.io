@@ -14,12 +14,12 @@
       "pluginData": { "resource": "wordpress.org/plugins", "slug": "woocommerce" },
       "options": { "activate": true }
     },
-    { "step": "wp-cli", "command": "option update woocommerce_store_address '123 Demo Street'" },
-    { "step": "wp-cli", "command": "option update woocommerce_store_city 'Demo City'" },
-    { "step": "wp-cli", "command": "option update woocommerce_default_country 'US:CA'" },
-    { "step": "wp-cli", "command": "post create --post_type=product --post_status=publish --post_title='Demo Botanical T-Shirt' --meta_input='{\"_regular_price\":\"24.99\",\"_sku\":\"DEMO-TSHIRT\",\"_stock_status\":\"instock\",\"_visibility\":\"visible\"}'" },
-    { "step": "wp-cli", "command": "post create --post_type=product --post_status=publish --post_title='Demo Canvas Tote' --meta_input='{\"_regular_price\":\"19.50\",\"_sku\":\"DEMO-TOTE\",\"_stock_status\":\"instock\",\"_visibility\":\"visible\"}'" },
-    { "step": "wp-cli", "command": "post create --post_type=product --post_status=publish --post_title='Demo Importer Beanie' --meta_input='{\"_regular_price\":\"15.99\",\"_sku\":\"DEMO-BEANIE\",\"_stock_status\":\"instock\",\"_visibility\":\"visible\"}'" },
+    { "step": "wp-cli", "command": ["option", "update", "woocommerce_store_address", "123 Demo Street"] },
+    { "step": "wp-cli", "command": ["option", "update", "woocommerce_store_city", "Demo City"] },
+    { "step": "wp-cli", "command": ["option", "update", "woocommerce_default_country", "US:CA"] },
+    { "step": "wp-cli", "command": ["post", "create", "--post_type=product", "--post_status=publish", "--post_title=Demo Botanical T-Shirt", "--meta_input={\"_regular_price\":\"24.99\",\"_sku\":\"DEMO-TSHIRT\",\"_stock_status\":\"instock\",\"_visibility\":\"visible\"}"] },
+    { "step": "wp-cli", "command": ["post", "create", "--post_type=product", "--post_status=publish", "--post_title=Demo Canvas Tote", "--meta_input={\"_regular_price\":\"19.50\",\"_sku\":\"DEMO-TOTE\",\"_stock_status\":\"instock\",\"_visibility\":\"visible\"}"] },
+    { "step": "wp-cli", "command": ["post", "create", "--post_type=product", "--post_status=publish", "--post_title=Demo Importer Beanie", "--meta_input={\"_regular_price\":\"15.99\",\"_sku\":\"DEMO-BEANIE\",\"_stock_status\":\"instock\",\"_visibility\":\"visible\"}"] },
     {
       "step": "installPlugin",
       "pluginZipFile": {
