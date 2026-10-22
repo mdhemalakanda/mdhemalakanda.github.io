@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800"><rect width="800" height="800" fill="#f3f1ee"/><circle cx="400" cy="410" r="300" fill="#e3ddd2"/>
+<path d="M480 350 Q600 345 600 435 Q600 520 480 515" fill="none" stroke="#8d6e63" stroke-width="30" stroke-linecap="round"/>
+<path d="M225 330 L545 330 L530 620 Q528 655 490 655 L280 655 Q242 655 240 620 Z" fill="#a1887f" stroke="#8d6e63" stroke-width="8" stroke-linejoin="round"/>
+<ellipse cx="385" cy="330" rx="160" ry="30" fill="#6d4c41"/>
+<path d="M385 355 Q365 390 385 425 Q405 460 385 495" stroke="#f3f1ee" stroke-width="9" fill="none" stroke-linecap="round"/>
+<g stroke="#bcaaa4" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.9"><path d="M330 280 Q315 245 335 210"/><path d="M395 275 Q380 235 400 200"/><path d="M455 280 Q440 245 460 210"/></g></svg>
