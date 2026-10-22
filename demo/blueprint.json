@@ -1,18 +1,30 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
   "meta": {
-    "title": "TeamzLab FedEx Shipping for WooCommerce — Live Admin Demo",
+    "title": "TeamzLab FedEx Shipping for WooCommerce \u2014 Live Admin Demo",
     "author": "TeamzLab",
     "description": "Preconfigured WordPress with WooCommerce and the TeamzLab FedEx Shipping plugin installed and activated. No real FedEx credentials are configured; shipping rates cannot be quoted and no real shipments or labels can be created."
   },
-  "preferredVersions": { "php": "8.3", "wp": "latest" },
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
   "landingPage": "/wp-admin/admin.php?page=fedex_shipping",
   "steps": [
-    { "step": "login", "username": "admin", "password": "password" },
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    },
     {
       "step": "installPlugin",
-      "pluginData": { "resource": "wordpress.org/plugins", "slug": "woocommerce" },
-      "options": { "activate": true }
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "woocommerce"
+      },
+      "options": {
+        "activate": true
+      }
     },
     {
       "step": "setSiteOptions",
@@ -20,7 +32,15 @@
         "woocommerce_store_address": "123 Demo Street",
         "woocommerce_store_city": "Demo City",
         "woocommerce_default_country": "US:CA",
-        "woocommerce_store_postcode": "90001"
+        "woocommerce_store_postcode": "90001",
+        "woocommerce_onboarding_profile": {
+          "skipped": 1
+        },
+        "woocommerce_task_list_hidden": "yes",
+        "woocommerce_extended_task_list_hidden": "yes",
+        "woocommerce_allow_tracking": "no",
+        "woocommerce_review_welcome_modal_offset": "-9999px",
+        "woocommerce_show_marketplace_suggestions": "no"
       }
     },
     {
@@ -37,7 +57,9 @@
         "resource": "url",
         "url": "https://raw.githubusercontent.com/mdhemalakanda/mdhemalakanda.github.io/main/demo/teamzlab-fedex.1.2.4.zip"
       },
-      "options": { "activate": true }
+      "options": {
+        "activate": true
+      }
     }
   ]
 }
