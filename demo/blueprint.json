@@ -1,90 +1,35 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
   "meta": {
-    "title": "TeamzLab FedEx Shipping for WooCommerce \u2014 Live Admin Demo",
+    "title": "TeamzLab FedEx Shipping for WooCommerce — Live Admin Demo",
     "author": "TeamzLab",
     "description": "Preconfigured WordPress with WooCommerce and the TeamzLab FedEx Shipping plugin installed and activated. No real FedEx credentials are configured; shipping rates cannot be quoted and no real shipments or labels can be created."
   },
-  "preferredVersions": {
-    "php": "8.3",
-    "wp": "latest"
-  },
+  "preferredVersions": { "php": "8.3", "wp": "latest" },
   "landingPage": "/wp-admin/admin.php?page=fedex_shipping",
   "steps": [
-    {
-      "step": "login",
-      "username": "admin",
-      "password": "password"
-    },
+    { "step": "login", "username": "admin", "password": "password" },
     {
       "step": "installPlugin",
-      "pluginData": {
-        "resource": "wordpress.org/plugins",
-        "slug": "woocommerce"
-      },
+      "pluginData": { "resource": "wordpress.org/plugins", "slug": "woocommerce" },
+      "options": { "activate": true }
+    },
+    {
+      "step": "setSiteOptions",
       "options": {
-        "activate": true
+        "woocommerce_store_address": "123 Demo Street",
+        "woocommerce_store_city": "Demo City",
+        "woocommerce_default_country": "US:CA",
+        "woocommerce_store_postcode": "90001"
       }
     },
     {
-      "step": "wp-cli",
-      "wp": [
-        "option",
-        "update",
-        "woocommerce_store_address",
-        "123 Demo Street"
-      ]
-    },
-    {
-      "step": "wp-cli",
-      "wp": [
-        "option",
-        "update",
-        "woocommerce_store_city",
-        "Demo City"
-      ]
-    },
-    {
-      "step": "wp-cli",
-      "wp": [
-        "option",
-        "update",
-        "woocommerce_default_country",
-        "US:CA"
-      ]
-    },
-    {
-      "step": "wp-cli",
-      "wp": [
-        "post",
-        "create",
-        "--post_type=product",
-        "--post_status=publish",
-        "--post_title=Demo Botanical T-Shirt",
-        "--meta_input={\"_regular_price\":\"24.99\",\"_sku\":\"DEMO-TSHIRT\",\"_stock_status\":\"instock\",\"_visibility\":\"visible\"}"
-      ]
-    },
-    {
-      "step": "wp-cli",
-      "wp": [
-        "post",
-        "create",
-        "--post_type=product",
-        "--post_status=publish",
-        "--post_title=Demo Canvas Tote",
-        "--meta_input={\"_regular_price\":\"19.50\",\"_sku\":\"DEMO-TOTE\",\"_stock_status\":\"instock\",\"_visibility\":\"visible\"}"
-      ]
-    },
-    {
-      "step": "wp-cli",
-      "wp": [
-        "post",
-        "create",
-        "--post_type=product",
-        "--post_status=publish",
-        "--post_title=Demo Importer Beanie",
-        "--meta_input={\"_regular_price\":\"15.99\",\"_sku\":\"DEMO-BEANIE\",\"_stock_status\":\"instock\",\"_visibility\":\"visible\"}"
-      ]
+      "step": "importWxr",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/mdhemalakanda/mdhemalakanda.github.io/main/demo/demo-products.xml"
+      },
+      "fetchAttachments": false
     },
     {
       "step": "installPlugin",
@@ -92,9 +37,7 @@
         "resource": "url",
         "url": "https://raw.githubusercontent.com/mdhemalakanda/mdhemalakanda.github.io/main/demo/teamzlab-fedex.1.2.4.zip"
       },
-      "options": {
-        "activate": true
-      }
+      "options": { "activate": true }
     }
   ]
 }
