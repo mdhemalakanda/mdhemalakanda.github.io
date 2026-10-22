@@ -68,7 +68,7 @@
       "step": "installPlugin",
       "pluginZipFile": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/mdhemalakanda/mdhemalakanda.github.io/main/demo/teamzlab-fedex-demo-data.1.0.0.zip"
+        "url": "https://raw.githubusercontent.com/mdhemalakanda/mdhemalakanda.github.io/main/demo/teamzlab-fedex-demo-data.1.1.0.zip"
       },
       "options": {
         "activate": true
