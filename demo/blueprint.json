@@ -42,7 +42,8 @@
         "woocommerce_review_welcome_modal_offset": "-9999px",
         "woocommerce_show_marketplace_suggestions": "no",
         "_transient__wc_activation_redirect": "",
-        "_transient_timeout__wc_activation_redirect": "1"
+        "_transient_timeout__wc_activation_redirect": "1",
+        "fshipping_demo_seed_enabled": "yes"
       }
     },
     {
